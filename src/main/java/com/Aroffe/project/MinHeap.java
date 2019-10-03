@@ -1,4 +1,4 @@
-package main.java.com.Aroffe;
+package com.Aroffe.project;
 
 import java.util.Map;
 import java.util.NoSuchElementException;

@@ -1,4 +1,4 @@
-package main.java.com.Aroffe;
+package com.Aroffe.project;
 
 import java.net.URI;
 import java.util.function.Function;

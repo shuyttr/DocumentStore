@@ -1,7 +1,7 @@
-package main.java.com.Aroffe.Impl;
+package com.Aroffe.project.Impl;
 
-import main.java.com.Aroffe.Document;
-import main.java.com.Aroffe.DocumentIO;
+import com.Aroffe.project.Document;
+import com.Aroffe.project.DocumentIO;
 import com.google.gson.*;
 
 import java.io.*;

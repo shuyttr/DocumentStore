@@ -1,8 +1,8 @@
-package main.java.com.Aroffe.Impl;
+package com.Aroffe.project.Impl;
 
-import main.java.com.Aroffe.BTree;
-import main.java.com.Aroffe.Document;
+import com.Aroffe.project.Document;
 
+import javax.print.Doc;
 import java.net.URI;
 import java.util.Comparator;
 
@@ -12,7 +12,7 @@ import java.util.Comparator;
 public class WordComparator implements Comparator<URI> {
 
     private String key;
-    private BTree<URI, Document> btree;
+    private BTreeImpl<URI, Document> btree;
 
     public WordComparator(BTreeImpl<URI, Document> bTree)
     {
@@ -27,6 +27,6 @@ public class WordComparator implements Comparator<URI> {
 
     @Override
     public int compare(URI o1, URI o2) {
-        return Integer.compare(btree.get(o2).wordCount(this.key), btree.get(o1).wordCount(this.key));
+        return Integer.compare(((DocumentImpl)btree.get(o2)).wordCount(this.key), ((DocumentImpl)btree.get(o1)).wordCount(this.key));
     }
 }

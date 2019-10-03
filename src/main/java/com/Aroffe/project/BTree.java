@@ -1,4 +1,4 @@
-package main.java.com.Aroffe;
+package com.Aroffe.project;
 
 public interface BTree<Key extends Comparable<Key>, Value>
 {

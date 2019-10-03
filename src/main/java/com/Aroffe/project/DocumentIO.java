@@ -1,4 +1,4 @@
-package main.java.com.Aroffe;
+package com.Aroffe.project;
 import java.io.File;
 import java.net.URI;
 public abstract class DocumentIO

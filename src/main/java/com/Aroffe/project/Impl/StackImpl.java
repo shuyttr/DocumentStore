@@ -1,6 +1,6 @@
-package main.java.com.Aroffe.Impl;
+package com.Aroffe.project.Impl;
 
-import main.java.com.Aroffe.Stack;
+import com.Aroffe.project.Stack;
 
 public class StackImpl<T> implements Stack<T>
 {

@@ -1,6 +1,6 @@
-package main.java.com.Aroffe.Impl;
+package com.Aroffe.project.Impl;
 
-import main.java.com.Aroffe.Trie;
+import com.Aroffe.project.Trie;
 
 import java.util.ArrayList;
 import java.util.Comparator;

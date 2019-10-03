@@ -1,8 +1,8 @@
-package main.java.com.Aroffe.Impl;
+package com.Aroffe.project.Impl;
 
-import main.java.com.Aroffe.BTree;
-import main.java.com.Aroffe.Document;
-import main.java.com.Aroffe.MinHeap;
+import com.Aroffe.project.BTree;
+import com.Aroffe.project.Document;
+import com.Aroffe.project.MinHeap;
 
 import java.net.URI;
 import java.util.Arrays;

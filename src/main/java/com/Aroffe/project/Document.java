@@ -1,4 +1,4 @@
-package main.java.com.Aroffe;
+package com.Aroffe.project;
 
 import java.net.URI;
 import java.util.Map;
@@ -8,7 +8,7 @@ public interface Document extends Comparable<Document>
     byte[] getDocument();
     int getDocumentHashCode();
     URI getKey();
-    DocumentStore.CompressionFormat getCompressionFormat();
+    com.Aroffe.project.DocumentStore.CompressionFormat getCompressionFormat();
     /**
      * how many times does the given word appear in the document?
      * @param word
