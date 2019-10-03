@@ -9,7 +9,7 @@ Download the .exe file from the DocumentStore/Executables directory
 ## Usage
 
 ```java
-import com.aroffe.DocumentStore;
+import com.Aroffe.project;
 Document doc = new Document(...);
 DocumentStore.add(doc);
 DocumentStore.search("keyword");
