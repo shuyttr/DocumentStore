@@ -22,4 +22,4 @@ I use the JUnit-4.12 test suite to test the DocumentStore's functionallity. Feel
 
 ## Contact
 
-With any issues, complaints, or compliments, contct me at aroffe9@gmail.com
+With any issues, complaints, or compliments, contact me at aroffe9@gmail.com
