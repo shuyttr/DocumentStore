@@ -2,10 +2,6 @@
 
 DocumentStore is a Java library that mimics a simple search engine.
 
-## Installation
-
-Download the .exe file from the DocumentStore/Executables directory
-
 ## Usage
 
 ```java
