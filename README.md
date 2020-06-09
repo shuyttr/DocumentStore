@@ -18,7 +18,3 @@ DocumentStore.delete(doc);
 ## Testing
 
 I use the JUnit-4.12 test suite to test the DocumentStore's functionallity
-
-## Contact
-
-With any issues, complaints, or compliments, contact me at aroffe9@gmail.com
